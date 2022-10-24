@@ -1,0 +1,41 @@
+{
+  "name": "o3-shop/codeception-modules",
+  "description": "Codeception helper modules for O3-Shop",
+  "keywords": [
+    "o3-shop",
+    "codeception",
+    "helper",
+    "eShop"
+  ],
+  "homepage": "https://www.o3-shop.com/",
+  "license": [
+    "GPL-3.0-only",
+    "proprietary"
+  ],
+  "author": [
+    {
+      "name": "OXID eSales AG",
+      "email": "info@oxid-esales.com",
+      "homepage": "https://oxid-esales.com",
+      "role": "Developer"
+    },
+    {
+      "name": "O3-Shop",
+      "email": "info@o3-shop.com",
+      "homepage": "https://www.o3-shop.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "symfony/translation": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidEsales\\Codeception\\": "src",
+      "Codeception\\Template\\": "./src/Codeception/Template"
+    }
+  },
+  "replace": {
+    "oxid-esales/codeception-modules": "1.4.2"
+  }
+}
