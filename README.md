@@ -10,12 +10,6 @@ This component is installable via composer:
 composer require --dev o3-shop/codeception-modules
 ```
 
-## Requirements
-
-* master branch is compatible with O3-Shop compilation master
-* b-6.3.x branch is compatible with O3-Shop compilation 6.3.x
-* b-6.2.x branch is compatible with O3-Shop compilation 6.2.x
-
 ## Usage
 
 You can use modules from this package as any other codeception module, 
